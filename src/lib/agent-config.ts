@@ -1,0 +1,18 @@
+// Sepolia Addresses
+export const POOL_MANAGER = '0xE03A1074c86CFeDd5C142C4F04F1a1536e203543';
+export const SWAP_ROUTER = '0xf13D190e9117920c703d79B5F33732e10049b115';
+export const POSITION_MANAGER = '0x429ba70129df741B2Ca2a85BC3A2a3328e5c09b4';
+export const PERMIT2 = '0x000000000022D473030F116dDEE9F6B43aC78BA3';
+
+export const HOOK_ADDRESS = '0xb79cceaacb13d9d5d75e7d3f1a850ccd14a100c0'; // Deployed ProofOfAgentHook
+
+export const TOKENS = {
+    USDC: '0x607c1FD9FD338EC825799A1068551CE19CACBe52',
+    WETH: '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9'
+};
+
+export const POOL_CONFIG = {
+    fee: 3000,
+    tickSpacing: 60,
+    hooks: HOOK_ADDRESS
+};
